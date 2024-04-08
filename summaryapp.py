@@ -23,7 +23,7 @@ def generate_response(txt):
 
 #streamlit web
 st.set_page_config(page_title="Text Summarization app")
-st.title("text summarization app")
+st.title("Text summarization app")
 
 #text input
 txt_input=st.text_area("Enter the text ", '' , height=300)
